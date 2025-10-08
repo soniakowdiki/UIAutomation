@@ -17,13 +17,13 @@ public class HomePage extends Utilities {
         PageFactory.initElements(driver,this);
     }
     @FindBy(xpath = "//select[@class='product_sort_container']")
-    private WebElement filterIcon;
+    protected WebElement filterIcon;
     @FindBy(id="add-to-cart-sauce-labs-backpack")
-    private WebElement backPackAddToCart;
+    protected WebElement backPackAddToCart;
     @FindBy(id="shopping_cart_container")
-    private WebElement cart;
+    protected WebElement cart;
     @FindBy(id="checkout")
-    private WebElement checkOut;
+    protected WebElement checkOut;
 
     public void addItemToCart(){
         try {

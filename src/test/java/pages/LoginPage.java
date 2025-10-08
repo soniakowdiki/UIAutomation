@@ -23,15 +23,15 @@ public class LoginPage extends Utilities {
     }
 
     @FindBy(id = "user-name")
-    private WebElement userName;
+    protected WebElement userName;
     @FindBy(id = "password")
-    private WebElement password;
+    protected WebElement password;
     @FindBy(xpath = "//div[@class='login_logo']")
-    private WebElement logo;
+    protected WebElement logo;
     @FindBy(id = "login-button")
-    private WebElement loginButton;
+    protected WebElement loginButton;
     @FindBy(id="shopping_cart_container")
-    private WebElement cart;
+    protected WebElement cart;
     String filePath=("src/test/resources/jsonFiles/Config.json");
 
     public void verifyLoginPage() {

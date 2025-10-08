@@ -21,19 +21,19 @@ public class CheckOutPage extends Utilities {
     }
 
     @FindBy(id="first-name")
-    private WebElement fistName;
+    protected WebElement fistName;
     @FindBy(id="last-name")
-    private WebElement lastName;
+    protected WebElement lastName;
     @FindBy(id="postal-code")
-    private WebElement postalCode;
+    protected WebElement postalCode;
     @FindBy(id="continue")
-    private WebElement conti;
+    protected WebElement conti;
     @FindBy(id="finish")
-    private WebElement complete;
+    protected WebElement complete;
     @FindBy(xpath = "//h2[@data-test='complete-header']")
-    private WebElement successMessage;
+    protected WebElement successMessage;
     @FindBy(id="back-to-products")
-    private WebElement backToHome;
+    protected WebElement backToHome;
 
     public void verifyCheckOutPage(){
         try {
