@@ -35,6 +35,7 @@ public class CheckOutPage extends Utilities {
     @FindBy(id="back-to-products")
     protected WebElement backToHome;
 
+
     public void verifyCheckOutPage(){
         try {
             test = extent.createTest("Checkout Page");
